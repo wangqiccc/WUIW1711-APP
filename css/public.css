@@ -1,0 +1,179 @@
+*{
+	margin: 0;    /* body 边框 */
+	padding: 0;
+	border: none;
+	text-decoration: none; /*  a标签 */
+	font-style: normal;
+	list-style: none;
+
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);    /* 清除高亮 */
+
+	box-sizing: border-box;   /* 盒子的阴影 */
+}
+@font-face {
+	font-family: 'iconfont';  /* project id 576622 */
+	src: url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.eot');
+	src: url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.woff') format('woff'),
+	url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_576622_9ubzj5djkwpl23xr.svg#iconfont') format('svg');
+}
+header{
+	width: 100%;
+	height: .98rem;
+	background-color: #d24ba9;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header_left{
+	/*width: 0.57rem;*/
+	margin-left: 0.24rem;
+	height: .98rem;
+}
+.saoyma{
+	font-family: 'iconfont'; 
+	font-size: 0.46rem;
+	color: #fff;
+	margin-top: 0.12rem;
+	text-align: center;
+}
+.saoma_zi{
+	font-size: 0.18rem;
+	color: #fff;
+	text-align: center;
+
+}
+.header_middle{
+	/*width: 4.40rem;*/
+	height: .98rem;
+}
+.youyuan{
+	font-size: 0.6rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.98rem;
+	font-weight: 800;
+	letter-spacing: 0.15rem;
+	font-family:"微软雅黑";
+}
+.header_right{ 
+	/*width: 0.6rem;*/
+	height: .98rem;
+	margin-right: 0.24rem;
+}
+.hr_tu{
+	font-family: 'iconfont'; 
+	font-size: 0.5rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.06rem;
+}
+.hr_zi{
+	font-size: 0.18rem;
+	color: #fff;
+	text-align: center;
+}
+
+
+/*底部*/
+footer{
+	width: 100%;
+	height: 0.98rem;
+	border-top: 0.01rem solid #c3c4c9;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.footer_item{
+	margin-left: 0.24rem;
+}
+.footer_item1{
+	margin-right: 0.24rem;
+	height: 0.89rem;
+	width: 0.6rem;
+}
+.fi_tu1{
+	font-family: 'iconfont'; 
+	margin-top: 0.12rem;
+	font-size: 0.4rem;
+	color: #3d4245;
+	text-align: center;
+}
+.fi_zi{
+	font-size: 0.18rem;
+	color: #3d4245;
+	text-align: center;
+}
+.footer_item1{
+	margin-right: 0.24rem;
+}
+
+
+
+/*内容*/
+
+main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.69rem;
+	bottom: .98rem;
+	overflow-y: scroll; 
+}
+main::-webkit-scrollbar{
+	display: none;
+}
+.che{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0.98rem;
+	bottom: .98rem;
+	overflow-y: scroll;
+	background: #eee;
+}
+.che::-webkit-scrollbar{
+	display: none;
+}
+
+
+
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 0.8rem;
+	position: fixed;
+	top: 0.89rem;
+	left:0;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	overflow-x: scroll; 
+
+}
+.banner::-webkit-scrollbar{
+	display: none;
+}
+.banner_item{
+	width: 1.48rem;
+	height: 0.8rem;
+}
+.banner_item1{
+	background-color: #e8e7e7;
+}
+.banner_item p{
+	font-size: 0.30rem;
+	color: #7f8084;
+	text-align: center;
+	line-height: 0.8rem;
+}
